@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ui-item {
+  background-color: #1d2025;
+  padding: 15px;
+  border-radius: 5px;
+  min-width: 220px;
+}
+.ui-item h2,
+.ui-item h3,
+.ui-item p {
+  color: white;
+}
+
+/* Lava styles */
+.lava-on .ui-item {
+  background-color: rgba(29, 32, 37, 0.75);
+}
+.lava-on h1,
+.lava-on h4,
+.lava-on h5 {
+  color: black;
+  font-weight: bold;
+  text-shadow: 0px 0px 5px #ff1003, 0px 0px 10px #ff1003, 0px 0px 25px #ff1003;
+}

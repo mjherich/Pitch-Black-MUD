@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+python-decouple = "*"
+django-rest-auth = "*"
+django-allauth = "*"
+pusher = "*"
+django-cors-headers = "*"
+gunicorn = "*"
+django-heroku = "*"
+django-rest-api = "*"
+python-dotenv = "*"
+dj_database_url = "*"
+
+[requires]
+python_version = "*"
+
+[dev-packages]
+autopep8 = "*"
